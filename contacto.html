@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/contacto.css">
+</head>
+<body>
+    <div class="layout">
+
+
+    <header class="header">
+        <!-- Títulos principales y logotipos -->
+        <h1>Bienvenidos a la Pagina de tu Salvador</h1>
+    </header>
+
+    <nav class="navigation">
+        <!-- Enlaces de navegación -->
+        <ul class="flex-menu">
+            <li><a href="index.html" class="vinculo">El Inicio</a></li>
+            <li><a href="sobrenos.html" class="vinculo">Acerca de Mi</a></li> 
+            <li><a href="contacto.html" class="vinculo">Mensajes al Cielo</a></li>
+        </ul>
+    </nav>
+
+    <main class="content1" >
+            <form class="formulario-flex" action="https://formspree.io/f/xykooyre" method="POST" enctype="multipart/form-data">            
+            <label>Nombre:</label>
+            <input type="text" name="nombre" size="30" id="nombre" placeholder="Escriba aqui su nombre" required maxlength="30" minlength="3" required>
+            <br>
+            <br>
+            <label>Apellido:</label>
+            <input type="text" name="apellido" id="apellido" required placeholder="Escriba aqui su apellido" maxlength="20" minlength="3" required>
+            <br> 
+            <br>       
+            <label>Email:</label>
+            <input type="email" name="email" id="email" placeholder="Escriba aqui su email"  aria-describedby="emailHelp" required>
+            <br>
+            <br>
+            <label>Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="Escriba aqui su edad" max="99" min="18" >
+    
+            <br>
+            <br>
+
+            <label>Motivo del Mensaje:</label>
+            <select>
+                    <option value="po">Pedido Oracion</option>
+                    <option value="ar">Arrepentimiento</option>
+                    <option value="cp">Confesion de Pecado</option>
+                    <option value="ot">Otro Motivo</option>
+            </select>
+
+            <br>
+            <br>    
+            <label>Mensaje:</label>
+            <textarea class="textarea"></textarea>
+            <br>
+            
+                <input type="submit" value="Enviar al Cielo">
+                <input type="reset" value="Limpiar">
+            
+            </form>
+    </main>
+    <footer class="footer">
+        <p>© 2026 Mi Sitio Web. Nunca es tarde para arrepentirse y volver a Dios.</p>
+    </footer>
+</body>
+</html>

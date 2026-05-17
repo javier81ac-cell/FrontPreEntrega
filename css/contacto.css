@@ -1,0 +1,45 @@
+
+
+.content1 {
+    background-image: url('../imagenes/cielo.avif');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-family: 'Cinzel', serif;
+    font-size: larger;
+    color: #2c3e50;
+}
+
+
+.mainbody{
+    background-image: url('../imagenes/cielo.avif'); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+.formulario-flex {
+    max-width: 1000px;
+    border-radius: 12px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+    margin-top: 400px;
+    margin-left: 50px;
+
+}   
+.textarea {
+    margin-top: 20px;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: 'Cinzel', serif;
+}
